@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --bgColor: #0D0D0D;  
+  --bodyHeaderColor: #595959 ;
+  --titleBgColor: #A6A6A6 ;
+  --titleColor: var(--bgColor, #313133);
+}
+body{
+  background-color: var(--bgColor, #313133);
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+
+
+/*Card MR SK SIR*/
+
+.card{
+  width: 100%;  
+}
+
+.card-header{
+  background-color: var(--bodyHeaderColor);
+  text-align: center;
+}
+.card-body{  
+  margin-top: 5px;
+  color: #FAFAFA;  
+}
+
+.card-title{
+  text-align: center;
+  color: var(--titleColor);
+  background-color: var(--titleBgColor);
+  border-radius: 3px;
+
+}
+
+.dark-grey-scale-2-hex ul li{
+  color: #FAFAFA; 
+}
+
+.dark-grey-scale-2-hex ul li i{
+  color: #FAFAFA; 
+  margin-right: 5px;
+}
+
+
+.dark-grey-scale-2-hex .card-body a{  
+  font-size: 22px;
+  color: #FAFAFA; 
+}
+
+.dark-grey-scale-2-hex .card-body a:hover{
+  color: #4F47E4; 
+}
+
+.col-sm-6 .dark-grey-scale-2-hex{
+  color: #FAFAFA; 
+}
+
+.col-sm-9,.col-sm-3{
+  width: 100%;
+}
+
+
+/* Color Theme Swatches in Hex */ 
+.dark-grey-scale-1-hex { background-color: /*#313133*/ #0D0D0D; } /*black*/
+.dark-grey-scale-2-hex { background-color: /*#403F3D*/ #262626; } /*light black*/
+.dark-grey-scale-3-hex { background-color: /*#7F7E7A*/ #404040; } /*dark gray */
+.dark-grey-scale-4-hex { background-color: #BFBCB8; } /*dim gray*/
+.dark-grey-scale-5-hex { background-color: #FAFAFA; } /*light gray*/
+
+/* Color Theme Swatches in RGBA */
+.dark-grey-scale-1-rgba { color: rgba(49, 49, 51, 1); }
+.dark-grey-scale-2-rgba { color: rgba(63, 63, 61, 1); }
+.dark-grey-scale-3-rgba { color: rgba(126, 126, 121, 1); }
+.dark-grey-scale-4-rgba { color: rgba(191, 188, 184, 1); }
+.dark-grey-scale-5-rgba { color: rgba(249, 249, 249, 1); }
+
+/* Color Theme Swatches in HSLA */
+.dark-grey-scale-1-hsla { color: hsla(240, 1, 19, 1); }
+.dark-grey-scale-2-hsla { color: hsla(40, 2, 24, 1); }
+.dark-grey-scale-3-hsla { color: hsla(48, 2, 48, 1); }
+.dark-grey-scale-4-hsla { color: hsla(34, 5, 73, 1); }
+.dark-grey-scale-5-hsla { color: hsla(0, 0, 98, 1); }
