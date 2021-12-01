@@ -274,19 +274,37 @@ h6{
   color: #4F47E4;
 }
 
+.author{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .author a{
   font-size: 13px;
   margin: 0 5px;
-  padding: 2px 5px;
-  border-radius: 5px; 
-  border: 1px solid #6c6c6c;
+  padding: 2px 10px;
+  border-radius: 10px; 
+  background-image: linear-gradient(to right, #535CF1, #A147E4);  
+  color: #fff;
 }
 
 .author a:hover{
-  box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.12);
-  background-color: #4F47E4;
+  background-image: linear-gradient(to left, #535CF1, #A147E4);  
+  color: #fff;
   color: whitesmoke;
 }
+
+.notes .text-info-cust{
+  color: #646EE5; ;
+  border: none;
+  font-size: 16px;
+  font-weight: normal;
+  outline: none;
+}
+
+
 
 /*========== Tutorial ============*/
 .tutorials{
@@ -497,6 +515,15 @@ footer .col2 ul li a:hover{
     margin-bottom: 3rem;
   }
 
+  /* Tutorial */
+  .cssTuts .row{
+    margin: 4rem 0;
+  }
+
+  /* Footer */
+  footer{
+    padding: 2rem 0;
+  }
 
   /*Contact*/
   .contact .form{
@@ -636,5 +663,23 @@ footer .col2 ul li a:hover{
     width: 100%;
     margin-bottom: 1rem;
   } 
+
+  .tutorials h3{
+font-size: 2rem;
+  }
+
+  /* Author */
+  .author{
+    flex-direction: column;
+  }
+
+  /* Footer */
+  footer{
+    flex-direction: column;
+  }
+
+  footer .col1{
+    margin-bottom: 2rem;
+  }
 }
 
